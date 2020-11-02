@@ -1,0 +1,64 @@
+-
++
+--
+++
+int var = 0;
+long
+short
+char b = 'v';
+2.0
+80.709
+0.001
+-10.1000
+.27070
+1345.1234567
+12.000233
+12.4
+.23
+'a'
+'d'
+'\''
+'\\'
+'z'
+
+
+--k ;
+int 
+double ;
+while;
+-8 ;
+- 7
++8;
++ 12
+a - b
+while (int k = 10) ++k ;
+++12
+++ 22
+--13
+-- 33
+- a(),{};
+--value
+-- bc
+++val
+++ kk
+v = b
+char mol = col, int a = b;
+int a = c;
+int key = -8;
+while(int x = 10) ++x;
+--Val_pas;
+--;
+
+while (int swap = 35) 
+{
+key = 100;
+++swap;
+}
+
+s = 50 * 20;
+k = 100 / 50;
+y = 2 % 1;
+m = 120 - 30;
+m = 120 + 30;
+
+

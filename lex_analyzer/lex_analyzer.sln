@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lex_analyzer", "lex_analyzer\lex_analyzer.csproj", "{A178A5F3-E057-4664-AC33-0C0FD8A662F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A178A5F3-E057-4664-AC33-0C0FD8A662F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A178A5F3-E057-4664-AC33-0C0FD8A662F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A178A5F3-E057-4664-AC33-0C0FD8A662F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A178A5F3-E057-4664-AC33-0C0FD8A662F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B71DA949-CB1E-4D99-8C33-3E3D4B12C7BE}
+	EndGlobalSection
+EndGlobal

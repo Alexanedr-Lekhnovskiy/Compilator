@@ -1,0 +1,14 @@
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\bin\Debug\lex_analyzer.exe.config
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\bin\Debug\lex_analyzer.exe
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\bin\Debug\lex_analyzer.pdb
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.csprojAssemblyReference.cache
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.csproj.CoreCompileInputs.cache
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.exe
+C:\Users\BatMA\Desktop\Доработка\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.pdb
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\bin\Debug\lex_analyzer.exe.config
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\bin\Debug\lex_analyzer.exe
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\bin\Debug\lex_analyzer.pdb
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.csproj.CoreCompileInputs.cache
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.exe
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.pdb
+C:\Users\BatMA\Documents\GitHub\lex_analyzer\lex_analyzer\obj\Debug\lex_analyzer.csprojAssemblyReference.cache
