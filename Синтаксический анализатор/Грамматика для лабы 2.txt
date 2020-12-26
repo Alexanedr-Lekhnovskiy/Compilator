@@ -1,0 +1,26 @@
+
+1) STAT -> ITERATION
+2) STAT -> ASSIGNMENT_EXP ;
+3) ITERATION -> while ( EXP ) STAT
+4) EXP -> ASSIGNMENT_EXP
+5) EXP -> EXP , ASSIGNMENT_EXP
+6) ASSIGNMENT_EXP -> id = ADDITIVE_EXP
+7) ADDITIVE_EXP -> MULT_EXP
+8) ADDITIVE_EXP -> ADDITIVE_EXP additive_operator MULT_EXP
+9) MULT_EXP -> CAST_EXP
+10) MULT_EXP -> MULT_EXP mult_operator CAST_EXP
+11) CAST_EXP -> type_name CAST_EXP
+12) CAST_EXP -> UNARY_EXP
+13) UNARY_EXP -> id
+14) UNARY_EXP -> int
+15) UNARY_EXP -> float
+16) UNARY_EXP -> prefix_operator UNARY_EXP
+
+
+prefix_operator = {++ --}
+int = целые числа
+float = вещественные числа
+id = идентификатор
+type_name = {int double long short}
+mult_operator = {* / %}
+additive_operator = {+ -}

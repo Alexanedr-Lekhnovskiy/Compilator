@@ -1,0 +1,26 @@
+C:\Users\asura\Desktop\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.exe
+C:\Users\asura\Desktop\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.deps.json
+C:\Users\asura\Desktop\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.runtimeconfig.json
+C:\Users\asura\Desktop\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.runtimeconfig.dev.json
+C:\Users\asura\Desktop\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.dll
+C:\Users\asura\Desktop\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.pdb
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.csprojAssemblyReference.cache
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.AssemblyInfoInputs.cache
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.AssemblyInfo.cs
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.csproj.CoreCompileInputs.cache
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.dll
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.pdb
+C:\Users\asura\Desktop\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.genruntimeconfig.cache
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.exe
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.deps.json
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.runtimeconfig.json
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.runtimeconfig.dev.json
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.dll
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\bin\Debug\netcoreapp3.1\Compilator.pdb
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.csprojAssemblyReference.cache
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.AssemblyInfoInputs.cache
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.AssemblyInfo.cs
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.csproj.CoreCompileInputs.cache
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.dll
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.pdb
+C:\Users\BatMA\Desktop\Синтаксический анализатор\Compilator\Compilator\obj\Debug\netcoreapp3.1\Compilator.genruntimeconfig.cache

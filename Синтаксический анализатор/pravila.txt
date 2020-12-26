@@ -1,0 +1,106 @@
+
+1) STAT -> ITERATION
+2) STAT -> ASSIGNMENT_EXP ;
+3) ITERATION -> while ( EXP ) STAT
+4) EXP -> ASSIGNMENT_EXP
+5) EXP -> EXP , ASSIGNMENT_EXP
+6) ASSIGNMENT_EXP -> id = ADDITIVE_EXP
+7) ADDITIVE_EXP -> MULT_EXP
+8) ADDITIVE_EXP -> ADDITIVE_EXP additive_operator MULT_EXP
+9) MULT_EXP -> CAST_EXP
+10) MULT_EXP -> MULT_EXP mult_operator CAST_EXP
+11) CAST_EXP -> type_name CAST_EXP
+12) CAST_EXP -> UNARY_EXP
+13) UNARY_EXP -> id
+14) UNARY_EXP -> int
+15) UNARY_EXP -> float
+16) UNARY_EXP -> prefix_operator UNARY_EXP
+
+
+prefix_operator = {++ --}
+int = целые числа
+float = вещественные числа
+id = идентификатор
+type_name = {int double long short}
+mult_operator = {* / %}
+additive_operator = {+ -}
+
+Опознать 1
+	If вершина = nabla STAT
+		Then допустить 
+	Else вершина = while ( EXP ) STAT
+		Then свертка (3) 
+	Else отвергнуть 
+
+Опознать 2
+	If вершина = ITERATION
+		Then свертка (1) 
+	Else отвергнуть
+ 
+Опознать 3 
+	If вершина = EXP , ASSIGNMENT_EXP
+		Then свертка (5) 
+	Else if вершина = ASSIGNMENT_EXP
+		Then свертка (4) 
+
+Опознать 4
+	If вершина = id = ADDITIVE_EXP
+		Then свертка (6)
+	Else отвергнуть
+
+Опознать 5
+	If вершина = ADDITIVE_EXP additive_operator MULT_EXP
+		Then свертка (8) 
+	Else if вершина = MULT_EXP
+		Then свертка (7) 
+Опознать 6
+	If вершина = MULT_EXP mult_operator CAST_EXP
+		Then свертка (10) 
+	Else if вершина = type_name CAST_EXP
+		Then свертка (11)
+	Else if вершина = CAST_EXP
+		Then свертка (9)
+Опознать 7
+	If вершина = prefix_operator UNARY_EXP
+		Then свертка (16) 
+	Else if вершина = UNARY_EXP
+		Then свертка (12)
+
+Опознать 8
+	If вершина = ASSIGNMENT_EXP ;
+		Then свертка (2) 
+	Else отвергнуть
+
+Опознать 9
+	If вершина = id
+		Then свертка (13) 
+	Else отвергнуть
+
+Опознать 10
+	If вершина = int
+		Then свертка (14) 
+	Else отвергнуть
+
+Опознать 11
+	If вершина = float
+		Then свертка (15) 
+	Else отвергнуть
+
+Перенос: втолкнуть (текущий входной символ), сдвиг
+
+Свертка (1): вытолкнуть, втолкнуть (STAT)
+Свертка (2): вытолкнуть, вытолкнуть, втолкнуть (STAT) 
+Свертка (3): вытолкнуть, вытолкнуть, вытолкнуть, вытолкнуть, вытолкнуть, втолкнуть (ITERATION)
+Свертка (4): вытолкнуть, втолкнуть (EXP)
+Свертка (5): вытолкнуть, вытолкнуть, вытолкнуть, втолкнуть (EXP)
+Свертка (6): вытолкнуть, вытолкнуть, вытолкнуть, втолкнуть (ASSIGNMENT_EXP)
+Свертка (7): вытолкнуть, втолкнуть (ADDITIVE_EXP)
+Свертка (8): вытолкнуть, вытолкнуть, вытолкнуть, втолкнуть (ADDITIVE_EXP)
+Свертка (9): вытолкнуть, втолкнуть (MULT_EXP)
+Свертка (10): вытолкнуть, вытолкнуть, вытолкнуть, втолкнуть (MULT_EXP)
+Свертка (11): вытолкнуть, вытолкнуть, втолкнуть (CAST_EXP)
+Свертка (12): вытолкнуть, втолкнуть (CAST_EXP)
+Свертка (13): вытолкнуть, втолкнуть (UNARY_EXP)
+Свертка (14): вытолкнуть, втолкнуть (UNARY_EXP)
+Свертка (15): вытолкнуть, втолкнуть (UNARY_EXP)
+Свертка (16): вытолкнуть, вытолкнуть, втолкнуть (UNARY_EXP)

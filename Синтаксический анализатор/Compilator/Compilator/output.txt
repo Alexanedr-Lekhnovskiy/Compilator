@@ -1,0 +1,5 @@
+    1| KEYWORD   | int                                               | 0     |
+    1| ID        | i                                                 | 0     |
+    1| ASSIGNMENT| =                                                 | 5     |
+    1| INT       | 50                                                | NONE  |
+    1| SEPARATOR | ;                                                 | 0     |
